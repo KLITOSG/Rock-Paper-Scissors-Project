@@ -17,10 +17,32 @@ function getComputerChoice (choice){
 
     }else{
         return "Scissors";
-
     }
-    
 } 
-console.log(getComputerChoice(choice));
+
+getComputerChoice(choice);
+
+/* Funcion that takes the user's input
+    create a prompt for useers input 
+    Code that returns the users input*/
+
+let input;
+
+function getHumanChoice (input){
+    input = prompt('Lets play Rock-Paper-Scissors. Whenever you are ready write here your choice: ');
+
+    if(input == "Rock"){
+        return "Rock";
+
+    } else if ( input == "Paper"){
+        return "Paper";
+
+    }else if ( input == "Scissors"){
+        return "Scissors" ;
+    }
+}
+  
+console.log(getHumanChoice(input));
+
 
 
