@@ -47,5 +47,6 @@ getHumanChoice(input);
 
 /* declare variables for score: one variable for user and one for computer */
 
-
+let humanScore = 0;
+let computerScore = 0; 
 
