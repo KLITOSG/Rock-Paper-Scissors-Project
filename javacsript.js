@@ -43,6 +43,9 @@ function getHumanChoice (input){
 }
   
 console.log(getHumanChoice(input));
+getHumanChoice(input);
+
+/* declare variables for score: one variable for user and one for computer */
 
 
 
